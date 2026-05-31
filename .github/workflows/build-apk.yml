@@ -27,6 +27,19 @@ jobs:
       - name: Build web app
         run: npm run build
 
+      - name: Create Capacitor config
+        run: |
+          cat > capacitor.config.json << 'EOF'
+          {
+            "appId": "com.ngpropertyhub.app",
+            "appName": "NGPropertyHub",
+            "webDir": "dist",
+            "server": {
+              "androidScheme": "https"
+            }
+          }
+          EOF
+
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
