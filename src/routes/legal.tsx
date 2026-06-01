@@ -7,9 +7,9 @@ import { Button } from "@/components/ui/button";
 export const Route = createFileRoute("/legal")({
   head: () => ({
     meta: [
-      { title: "50-State Real Estate Legal Engine — NGPropertyHub" },
+      { title: "50-State Real Estate Legal Engine — New Guard Property Hub" },
       { name: "description", content: "AI-powered answers to U.S. property law questions in every state — attorney requirements, title searches, closing timelines, escrow rules, and more." },
-      { property: "og:title", content: "50-State Real Estate Legal Engine — NGPropertyHub" },
+      { property: "og:title", content: "50-State Real Estate Legal Engine — New Guard Property Hub" },
       { property: "og:description", content: "AI-powered answers to U.S. property law questions in every state — attorney requirements, title searches, closing timelines, escrow rules, and more." },
       { property: "og:url", content: "https://us-property-grid.lovable.app/legal" },
       { property: "og:type", content: "website" },
@@ -36,7 +36,7 @@ export const Route = createFileRoute("/legal")({
 const faqs = [
   { q: "Do I need a real estate attorney?", a: "Required in some states (NY, NJ, GA) and recommended in others. Our 50-state guide details requirements." },
   { q: "What is a title search?", a: "A title search verifies the seller has clear, transferable ownership." },
-  { q: "How long does closing take?", a: "Typically 30-45 days; NGPropertyHub averages 14 days with smart escrow." },
+  { q: "How long does closing take?", a: "Typically 30-45 days; New Guard Property Hub averages 14 days with smart escrow." },
 ];
 
 function Page() {

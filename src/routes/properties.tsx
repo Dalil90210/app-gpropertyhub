@@ -11,9 +11,9 @@ import { Search, Building2 } from "lucide-react";
 export const Route = createFileRoute("/properties")({
   head: () => ({
     meta: [
-      { title: "U.S. Properties for Sale — NGPropertyHub" },
+      { title: "U.S. Properties for Sale — New Guard Property Hub" },
       { name: "description", content: "Browse verified U.S. real estate listings across all 50 states. Filter by price, location, and beds to find your next home, investment, or commercial property." },
-      { property: "og:title", content: "U.S. Properties for Sale — NGPropertyHub" },
+      { property: "og:title", content: "U.S. Properties for Sale — New Guard Property Hub" },
       { property: "og:description", content: "Browse verified U.S. real estate listings across all 50 states. Filter by price, location, and beds to find your next home, investment, or commercial property." },
       { property: "og:url", content: "https://us-property-grid.lovable.app/properties" },
       { property: "og:type", content: "website" },
@@ -76,7 +76,7 @@ function Properties() {
         <div className="text-center py-20">
           <Building2 className="w-12 h-12 mx-auto text-muted-foreground" />
           <h3 className="text-xl font-semibold mt-4 text-navy">No properties yet</h3>
-          <p className="text-muted-foreground mt-1">Be the first to list a property on NGPropertyHub.</p>
+          <p className="text-muted-foreground mt-1">Be the first to list a property on New Guard Property Hub.</p>
           <Link to="/list-property"><Button className="mt-5 bg-navy hover:bg-navy/90">List Your Property</Button></Link>
         </div>
       ) : (

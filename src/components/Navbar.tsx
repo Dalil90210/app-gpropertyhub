@@ -25,7 +25,8 @@ export function Navbar() {
           <div className="w-9 h-9 rounded-lg gradient-gold flex items-center justify-center text-navy">
             <Home className="w-5 h-5" />
           </div>
-          <span className="text-base tracking-tight">NGPropertyHub</span>
+          <span className="text-base tracking-tight hidden sm:inline">New Guard Property Hub</span>
+          <span className="text-base tracking-tight sm:hidden">New Guard</span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-6">
@@ -49,7 +50,7 @@ export function Navbar() {
               </Link>
             </>
           ) : (
-            <Link to="/auth"><Button className="bg-gold text-navy hover:bg-gold/90 font-semibold">Sign In</Button></Link>
+            <Link to="/auth"><Button className="bg-gold text-navy hover:bg-gold/90 font-semibold shadow-gold">Launch App</Button></Link>
           )}
         </div>
 

@@ -9,9 +9,9 @@ import { Sparkles, TrendingUp, TrendingDown } from "lucide-react";
 export const Route = createFileRoute("/ng-estimate")({
   head: () => ({
     meta: [
-      { title: "NG-Estimate — Free AI Property Valuation | NGPropertyHub" },
+      { title: "NG-Estimate — Free AI Property Valuation | New Guard Property Hub" },
       { name: "description", content: "Get an instant, AI-powered valuation for any U.S. property address. NG-Estimate analyzes comparable sales and market trends in seconds — no signup required." },
-      { property: "og:title", content: "NG-Estimate — Free AI Property Valuation | NGPropertyHub" },
+      { property: "og:title", content: "NG-Estimate — Free AI Property Valuation | New Guard Property Hub" },
       { property: "og:description", content: "Get an instant, AI-powered valuation for any U.S. property address. NG-Estimate analyzes comparable sales and market trends in seconds — no signup required." },
       { property: "og:url", content: "https://us-property-grid.lovable.app/ng-estimate" },
       { property: "og:type", content: "website" },

@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 import { ShieldCheck, Lock, Hash, FileCheck } from "lucide-react";
 
 export const Route = createFileRoute("/verify")({
-  head: () => ({ meta: [{ title: "Verify — NGPropertyHub" }] }),
+  head: () => ({ meta: [{ title: "Verify — New Guard Property Hub" }] }),
   component: Page,
 });
 
