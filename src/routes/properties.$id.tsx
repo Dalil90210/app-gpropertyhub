@@ -28,8 +28,8 @@ export const Route = createFileRoute("/properties/$id")({
     if (!p) {
       return {
         meta: [
-          { title: "Property — NGPropertyHub" },
-          { name: "description", content: "View this verified U.S. property listing on NGPropertyHub — photos, details, AI valuation, and secure offer submission." },
+          { title: "Property — New Guard Property Hub" },
+          { name: "description", content: "View this verified U.S. property listing on New Guard Property Hub — photos, details, AI valuation, and secure offer submission." },
           { property: "og:url", content: url },
         ],
         links: [{ rel: "canonical", href: url }],
@@ -37,7 +37,7 @@ export const Route = createFileRoute("/properties/$id")({
     }
     const priceFmt = `$${Number(p.price).toLocaleString()}`;
     const location = [p.city, p.state].filter(Boolean).join(", ");
-    const title = `${p.title} — ${priceFmt} in ${location} | NGPropertyHub`;
+    const title = `${p.title} — ${priceFmt} in ${location} | New Guard Property Hub`;
     const baseDesc = (p.description?.trim() || `${p.bedrooms ?? 0} bed, ${p.bathrooms ?? 0} bath home in ${location}. ${p.sqft ? `${p.sqft.toLocaleString()} sqft. ` : ""}Verified listing with AI valuation and secure offer submission.`).replace(/\s+/g, " ");
     const description = baseDesc.length > 155 ? `${baseDesc.slice(0, 152)}...` : baseDesc;
     const image = p.images?.[0];

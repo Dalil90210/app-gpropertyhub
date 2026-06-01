@@ -1,8 +1,8 @@
-# NGPropertyHub
+# New Guard Property Hub
 
 > Secure U.S. real estate marketplace covering all 50 states — verified listings, AI valuations, smart escrow, fractional investing, crypto payments, and a 50-state legal engine.
 
-NGPropertyHub helps buyers, sellers, agents, and investors close real estate deals faster and more securely than legacy MLS platforms.
+New Guard Property Hub helps buyers, sellers, agents, and investors close real estate deals faster and more securely than legacy MLS platforms.
 
 ## Pages
 

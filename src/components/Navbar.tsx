@@ -25,7 +25,7 @@ export function Navbar() {
           <div className="w-9 h-9 rounded-lg gradient-gold flex items-center justify-center text-navy">
             <Home className="w-5 h-5" />
           </div>
-          <span className="text-base tracking-tight">NGPropertyHub</span>
+          <span className="text-base tracking-tight">New Guard Property Hub</span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-6">

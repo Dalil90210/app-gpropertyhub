@@ -7,9 +7,9 @@ import { Briefcase, Star, MapPin } from "lucide-react";
 export const Route = createFileRoute("/agents")({
   head: () => ({
     meta: [
-      { title: "Find a Real Estate Agent — NGPropertyHub" },
+      { title: "Find a Real Estate Agent — New Guard Property Hub" },
       { name: "description", content: "Browse top-rated, verified U.S. real estate agents across all 50 states. Search by city or specialty to find an expert for your next transaction." },
-      { property: "og:title", content: "Find a Real Estate Agent — NGPropertyHub" },
+      { property: "og:title", content: "Find a Real Estate Agent — New Guard Property Hub" },
       { property: "og:description", content: "Browse top-rated, verified U.S. real estate agents across all 50 states. Search by city or specialty to find an expert for your next transaction." },
       { property: "og:url", content: "https://us-property-grid.lovable.app/agents" },
       { property: "og:type", content: "website" },

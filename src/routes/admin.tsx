@@ -55,7 +55,7 @@ function Admin() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
             <ShieldCheck className="text-gold" />
-            <h1 className="font-bold">NGPropertyHub Admin</h1>
+            <h1 className="font-bold">New Guard Property Hub Admin</h1>
           </div>
           <div className="flex gap-2">
             <Link to="/"><Button variant="ghost" className="text-white hover:bg-white/10 hover:text-white">View site</Button></Link>

@@ -8,7 +8,7 @@ export function Footer() {
         <div>
           <div className="flex items-center gap-2 text-white mb-3">
             <div className="w-8 h-8 rounded-md gradient-gold flex items-center justify-center text-navy"><Home className="w-4 h-4" /></div>
-            <span className="font-bold">NGPropertyHub</span>
+            <span className="font-bold">New Guard Property Hub</span>
           </div>
           <p className="text-sm">The #1 U.S. Real Estate Platform — secure, verified, intelligent.</p>
         </div>

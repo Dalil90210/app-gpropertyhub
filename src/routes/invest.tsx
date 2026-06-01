@@ -9,9 +9,9 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/invest")({
   head: () => ({
     meta: [
-      { title: "Fractional Real Estate Investing — NGPropertyHub" },
+      { title: "Fractional Real Estate Investing — New Guard Property Hub" },
       { name: "description", content: "Own a slice of premium U.S. real estate from just $100. Earn monthly rental income, diversify across states, and share in long-term property appreciation." },
-      { property: "og:title", content: "Fractional Real Estate Investing — NGPropertyHub" },
+      { property: "og:title", content: "Fractional Real Estate Investing — New Guard Property Hub" },
       { property: "og:description", content: "Own a slice of premium U.S. real estate from just $100. Earn monthly rental income, diversify across states, and share in long-term property appreciation." },
       { property: "og:url", content: "https://us-property-grid.lovable.app/invest" },
       { property: "og:type", content: "website" },

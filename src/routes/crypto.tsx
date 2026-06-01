@@ -6,9 +6,9 @@ import { Bitcoin, Zap, ShieldCheck, TrendingDown } from "lucide-react";
 export const Route = createFileRoute("/crypto")({
   head: () => ({
     meta: [
-      { title: "Crypto Real Estate Payments — NGPropertyHub" },
+      { title: "Crypto Real Estate Payments — New Guard Property Hub" },
       { name: "description", content: "Buy U.S. property with Bitcoin, Ethereum, USDC, or USDT. Instant settlement, multi-sig security, and 60%+ lower fees than wire or ACH transfers." },
-      { property: "og:title", content: "Crypto Real Estate Payments — NGPropertyHub" },
+      { property: "og:title", content: "Crypto Real Estate Payments — New Guard Property Hub" },
       { property: "og:description", content: "Buy U.S. property with Bitcoin, Ethereum, USDC, or USDT. Instant settlement, multi-sig security, and 60%+ lower fees than wire or ACH transfers." },
       { property: "og:url", content: "https://us-property-grid.lovable.app/crypto" },
       { property: "og:type", content: "website" },

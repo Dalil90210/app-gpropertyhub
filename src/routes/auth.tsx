@@ -48,7 +48,7 @@ function Auth() {
       <Card className="w-full max-w-md p-8 bg-card">
         <Link to="/" className="flex items-center gap-2 justify-center mb-6">
           <div className="w-10 h-10 rounded-lg gradient-gold flex items-center justify-center text-navy"><Home className="w-5 h-5" /></div>
-          <span className="font-bold text-navy">NGPropertyHub</span>
+          <span className="font-bold text-navy">New Guard Property Hub</span>
         </Link>
 
         <Tabs defaultValue="signin">

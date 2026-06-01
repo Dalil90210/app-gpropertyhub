@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { ShieldCheck, Lock, Clock, CheckCircle2 } from "lucide-react";
 
 export const Route = createFileRoute("/escrow")({
-  head: () => ({ meta: [{ title: "Smart Escrow — NGPropertyHub" }] }),
+  head: () => ({ meta: [{ title: "Smart Escrow — New Guard Property Hub" }] }),
   component: Page,
 });
 

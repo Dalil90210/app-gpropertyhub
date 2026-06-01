@@ -7,7 +7,7 @@ import { Search, ShieldCheck, Sparkles, Coins, PieChart, ArrowRight, Building2, 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "NGPropertyHub — Secure U.S. Real Estate Transactions" },
+      { title: "New Guard Property Hub — Secure U.S. Real Estate Transactions" },
       { name: "description", content: "Browse verified listings, get AI valuations, and close securely across all 50 US states." },
     ],
   }),
@@ -116,7 +116,7 @@ function Home() {
       <section className="container mx-auto px-4 py-16">
         <div className="rounded-2xl gradient-navy text-white p-10 md:p-16 text-center shadow-elegant">
           <h2 className="text-3xl md:text-4xl font-bold">Ready to make your next move?</h2>
-          <p className="mt-3 text-white/80">Join thousands of buyers, sellers, agents and investors on NGPropertyHub.</p>
+          <p className="mt-3 text-white/80">Join thousands of buyers, sellers, agents and investors on New Guard Property Hub.</p>
           <div className="mt-6 flex flex-wrap gap-3 justify-center">
             <Link to="/auth"><Button size="lg" className="bg-gold text-navy hover:bg-gold/90 font-semibold">Get Started</Button></Link>
             <Link to="/list-property"><Button size="lg" variant="outline" className="border-white/30 bg-white/5 text-white hover:bg-white/10 hover:text-white">List Your Property</Button></Link>
