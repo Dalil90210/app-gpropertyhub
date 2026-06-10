@@ -38,8 +38,11 @@ function Auth() {
   };
 
   const google = async () => {
-    const r = await lovable.auth.signInWithOAuth("google", { redirect_uri: `${window.location.origin}/role-select` });
-    if (r.error) toast.error("Google sign-in failed");
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: "google",
+      options: { redirectTo: "https://app.ngpropertyhub.com/role-select" },
+    });
+    if (error) toast.error("Google sign-in failed");
   };
 
   return (
