@@ -10,10 +10,10 @@ export const Route = createFileRoute("/crypto")({
       { name: "description", content: "Buy U.S. property with Bitcoin, Ethereum, USDC, or USDT. Instant settlement, multi-sig security, and 60%+ lower fees than wire or ACH transfers." },
       { property: "og:title", content: "Crypto Real Estate Payments — New Guard Property Hub" },
       { property: "og:description", content: "Buy U.S. property with Bitcoin, Ethereum, USDC, or USDT. Instant settlement, multi-sig security, and 60%+ lower fees than wire or ACH transfers." },
-      { property: "og:url", content: "https://us-property-grid.lovable.app/crypto" },
+      { property: "og:url", content: "https://app.ngpropertyhub.com/crypto" },
       { property: "og:type", content: "website" },
     ],
-    links: [{ rel: "canonical", href: "https://us-property-grid.lovable.app/crypto" }],
+    links: [{ rel: "canonical", href: "https://app.ngpropertyhub.com/crypto" }],
   }),
   component: Page,
 });

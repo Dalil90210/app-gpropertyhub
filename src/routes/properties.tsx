@@ -15,10 +15,10 @@ export const Route = createFileRoute("/properties")({
       { name: "description", content: "Browse verified U.S. real estate listings across all 50 states. Filter by price, location, and beds to find your next home, investment, or commercial property." },
       { property: "og:title", content: "U.S. Properties for Sale — New Guard Property Hub" },
       { property: "og:description", content: "Browse verified U.S. real estate listings across all 50 states. Filter by price, location, and beds to find your next home, investment, or commercial property." },
-      { property: "og:url", content: "https://us-property-grid.lovable.app/properties" },
+      { property: "og:url", content: "https://app.ngpropertyhub.com/properties" },
       { property: "og:type", content: "website" },
     ],
-    links: [{ rel: "canonical", href: "https://us-property-grid.lovable.app/properties" }],
+    links: [{ rel: "canonical", href: "https://app.ngpropertyhub.com/properties" }],
   }),
   component: Properties,
 });
