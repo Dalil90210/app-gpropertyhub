@@ -23,7 +23,7 @@ export const Route = createFileRoute("/properties/$id")({
     return { property: data };
   },
   head: ({ params, loaderData }) => {
-    const url = `https://us-property-grid.lovable.app/properties/${params.id}`;
+    const url = `https://app.ngpropertyhub.com/properties/${params.id}`;
     const p = loaderData?.property;
     if (!p) {
       return {

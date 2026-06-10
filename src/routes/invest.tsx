@@ -13,10 +13,10 @@ export const Route = createFileRoute("/invest")({
       { name: "description", content: "Own a slice of premium U.S. real estate from just $100. Earn monthly rental income, diversify across states, and share in long-term property appreciation." },
       { property: "og:title", content: "Fractional Real Estate Investing — New Guard Property Hub" },
       { property: "og:description", content: "Own a slice of premium U.S. real estate from just $100. Earn monthly rental income, diversify across states, and share in long-term property appreciation." },
-      { property: "og:url", content: "https://us-property-grid.lovable.app/invest" },
+      { property: "og:url", content: "https://app.ngpropertyhub.com/invest" },
       { property: "og:type", content: "website" },
     ],
-    links: [{ rel: "canonical", href: "https://us-property-grid.lovable.app/invest" }],
+    links: [{ rel: "canonical", href: "https://app.ngpropertyhub.com/invest" }],
   }),
   component: Page,
 });

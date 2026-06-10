@@ -11,10 +11,10 @@ export const Route = createFileRoute("/legal")({
       { name: "description", content: "AI-powered answers to U.S. property law questions in every state — attorney requirements, title searches, closing timelines, escrow rules, and more." },
       { property: "og:title", content: "50-State Real Estate Legal Engine — New Guard Property Hub" },
       { property: "og:description", content: "AI-powered answers to U.S. property law questions in every state — attorney requirements, title searches, closing timelines, escrow rules, and more." },
-      { property: "og:url", content: "https://us-property-grid.lovable.app/legal" },
+      { property: "og:url", content: "https://app.ngpropertyhub.com/legal" },
       { property: "og:type", content: "website" },
     ],
-    links: [{ rel: "canonical", href: "https://us-property-grid.lovable.app/legal" }],
+    links: [{ rel: "canonical", href: "https://app.ngpropertyhub.com/legal" }],
     scripts: [
       {
         type: "application/ld+json",

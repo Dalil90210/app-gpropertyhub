@@ -9,4 +9,4 @@ Disallow: /escrow
 Disallow: /role-select
 Disallow: /verify
 
-Sitemap: https://us-property-grid.lovable.app/sitemap.xml
+Sitemap: https://app.ngpropertyhub.com/sitemap.xml
